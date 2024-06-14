@@ -64,11 +64,90 @@ const teams = [
 ];
 
 const games = [{
-    home_team: "Roosters",
-    away_team: "Royals",
-    home_score: 28,
-    away_score: 12
-}]
+        home_team: "Roosters",
+        away_team: "Royals",
+        home_score: 28,
+        away_score: 12,
+        week: 1
+    },
+    {
+        home_team: "Crocodiles",
+        away_team: "Butchers",
+        home_score: 34,
+        away_score: 16,
+        week: 1
+    },
+    {
+        home_team: "Crusaders",
+        away_team: "Steelers",
+        home_score: 14,
+        away_score: 62,
+        week: 1
+    },
+    {
+        home_team: "Crocodiles",
+        away_team: "Royals",
+        home_score: 28,
+        away_score: 12,
+        week: 2
+    },
+    {
+        home_team: "Roosters",
+        away_team: "Butchers",
+        home_score: 28,
+        away_score: 7,
+        week: 2
+    },
+    {
+        home_team: "Wolverines",
+        away_team: "Steelers",
+        home_score: 6,
+        away_score: 46,
+        week: 2
+    },
+    {
+        home_team: "Roosters",
+        away_team: "Crusaders",
+        home_score: 63,
+        away_score: 7,
+        week: 3
+    },
+    {
+        home_team: "Crocodiles",
+        away_team: "Wolverines",
+        home_score: 37,
+        away_score: 14,
+        week: 3
+    },
+    {
+        home_team: "Butchers",
+        away_team: "Royals",
+        home_score: 50,
+        away_score: 13,
+        week: 3
+    },
+    {
+        home_team: "Wolverines",
+        away_team: "Roosters",
+        home_score: 0,
+        away_score: 63,
+        week: 4
+    },
+    {
+        home_team: "Crusaders",
+        away_team: "Crocodiles",
+        home_score: 41,
+        away_score: 63,
+        week: 4
+    },
+    {
+        home_team: "Butchers",
+        away_team: "Steelers",
+        home_score: 7,
+        away_score: 21,
+        week: 4
+    }
+]
 
 mongoose.connect(uri || "")
     .then(async () => {
