@@ -5,7 +5,7 @@ interface Game extends Document {
     away_team: string,
     home_score: number,
     away_score: number,
-    week: number
+    week: string
 };
 
 const GameSchema: Schema = new Schema({
@@ -13,7 +13,7 @@ const GameSchema: Schema = new Schema({
     away_team: { type: String, required: true },
     home_score: { type: Number, required: true },
     away_score: { type: Number, required: true },
-    week: { type: Number, required: true }
+    week: { type: String, required: true }
 });
 
 const Game = mongoose.model<Game>("Game", GameSchema);
