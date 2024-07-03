@@ -1,6 +1,6 @@
 # Vaahteraliiga
 
-A website created with React and Node.js.
+A website created with React, Node.js and MongoDB.
 
 I used to play american football here in Finland and still like to follow the sport especially Vaahteraliiga.
 So I made this website to follow the current status of the league.
